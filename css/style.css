@@ -1,8 +1,8 @@
 html {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	
-	
+	overflow: hidden;
 }
 
 body {
@@ -15,9 +15,27 @@ body {
 header {
 	width: 400px;
 	height: 100px;
+	
 	margin: 1.6em;
+	padding: 1em;
 	
 	background: yellow;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+
+}
+
+h6 {
+	
 }
 
 #sidebar {
@@ -27,6 +45,8 @@ header {
 	
 	width: 200px;
 	height: auto;
+	
+	padding: 1em;
 	
 	font: 1.6em 'Helvetica', Arial, sans-serif;
 }
@@ -38,6 +58,8 @@ header {
 	float: left;
 	
 	width: 400px;
+	height: 300px;
 	
 	margin: 0 1.6em 1.6em 1.6em;
+	padding: 1em;
 }
