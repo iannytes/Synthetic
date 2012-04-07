@@ -1,0 +1,43 @@
+html {
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+body {
+	position: relative;
+	width: 99%;
+	height: 100%;
+	
+}
+
+header {
+	width: 400px;
+	height: 100px;
+	margin: 1.6em;
+	
+	background: yellow;
+}
+
+#sidebar {
+	position: relative;
+	background: green;
+	float: left;
+	
+	width: 200px;
+	height: auto;
+	
+	font: 1.6em 'Helvetica', Arial, sans-serif;
+}
+
+#content {
+	position: relative;
+	background: beige;
+	
+	float: left;
+	
+	width: 400px;
+	
+	margin: 0 1.6em 1.6em 1.6em;
+}
