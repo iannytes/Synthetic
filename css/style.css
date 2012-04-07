@@ -53,9 +53,11 @@ article {
 	
 	width: auto;
 	height: 100%;
-	
-	padding: 1em;
-	font: 1em 'Helvetica', 'Arial', sans-serif;
+}
+
+#masthead p {
+	font: Bold 5em 'Helvetica', 'Arial', sans-serif;
+	margin: 0em;
 }
 
 #sidebar {
