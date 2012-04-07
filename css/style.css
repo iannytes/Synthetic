@@ -6,18 +6,47 @@ html {
 }
 
 body {
-	position: relative;
-	width: 99%;
-	height: 100%;
-	
+	height: auto;
+	background: red;
 }
 
 header {
-	position: relative;
+	position: absolute;
+	
+	background: yellow;
+	
 	width: 100%;
 	height: 100px;
-		
-	background: yellow;
+	top: 0px;
+	left: 0px;
+}
+
+section {
+	position: absolute;
+	background: aqua;
+	
+	height: auto;
+	width: 100%;
+	top: 100px;
+	left: 0px;
+
+}
+
+article {
+	background: blue;
+	
+	float: left;
+	
+	width: 400px;
+	height: auto;
+	overflow: auto;
+}
+
+#sidebar {
+	float: left;
+	
+	width: 200px;
+	height: 100%;
 }
 
 h1 {
@@ -34,33 +63,4 @@ h3 {
 
 h6 {
 	
-}
-
-#sidebar {
-	position: relative;
-	background: green;
-	float: left;
-	
-	width: 200px;
-	height: auto;
-		
-	font: 1.6em 'Helvetica', Arial, sans-serif;
-}
-
-#bodycontent {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	
-	padding-bottom: 5em;
-}
-
-#content {
-	position: relative;
-	background: beige;
-	
-	float: left;
-	
-	width: 400px;
-	height: 100%;
 }
