@@ -2,7 +2,7 @@ html {
 	width: 100%;
 	height: 100%;
 	
-	overflow: hidden;
+//	overflow: hidden;
 }
 
 body {
@@ -13,12 +13,10 @@ body {
 }
 
 header {
-	width: 400px;
+	position: relative;
+	width: 100%;
 	height: 100px;
-	
-	margin: 1.6em;
-	padding: 1em;
-	
+		
 	background: yellow;
 }
 
@@ -45,10 +43,16 @@ h6 {
 	
 	width: 200px;
 	height: auto;
-	
-	padding: 1em;
-	
+		
 	font: 1.6em 'Helvetica', Arial, sans-serif;
+}
+
+#bodycontent {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+	padding-bottom: 5em;
 }
 
 #content {
@@ -58,8 +62,5 @@ h6 {
 	float: left;
 	
 	width: 400px;
-	height: 300px;
-	
-	margin: 0 1.6em 1.6em 1.6em;
-	padding: 1em;
+	height: 100%;
 }
