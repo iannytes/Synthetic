@@ -12,9 +12,7 @@ body {
 
 header {
 	position: absolute;
-	
-	background: yellow;
-	
+		
 	width: 100%;
 	height: 100px;
 	top: 0px;
@@ -37,12 +35,20 @@ article {
 	
 	float: left;
 	
-	width: 400px;
+	width: 480px;
 	height: auto;
 	overflow: auto;
+	
+	padding: 1.6em;
 }
 
 #news {
+	background: yellow;
+	
+	width: 400px;
+	height: 100%;
+	
+	padding: 1em;
 }
 
 #sidebar {
@@ -50,18 +56,26 @@ article {
 	
 	width: 200px;
 	height: 100%;
+	
+	font: 1.5em 'Helvetic', 'Arial', sans-serif;
+	line-height: 2em;
 }
 
 h1 {
-	
+	font: Bold 2em 'Helvetica', 'Arial', sans-serif;
 }
 
 h2 {
-	
+	font: Bold 1.5em 'Helvetica', 'Arial', sans-serif;
 }
 
 h3 {
+	font: Bold 1.5em 'Helvetica', 'Arial', sans-serif;
+}
 
+p {
+	font: 0.875em 'Helvetica', 'Arial', sans-serif;
+	line-height: 1.375em;
 }
 
 span.newsheader {
