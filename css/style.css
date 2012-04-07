@@ -7,7 +7,6 @@ html {
 
 body {
 	height: auto;
-	background: red;
 }
 
 header {
@@ -21,7 +20,6 @@ header {
 
 section {
 	position: absolute;
-	background: aqua;
 	
 	height: auto;
 	width: 100%;
@@ -30,9 +28,7 @@ section {
 
 }
 
-article {
-	background: blue;
-	
+article {	
 	float: left;
 	
 	width: 480px;
@@ -42,9 +38,7 @@ article {
 	padding: 1.6em;
 }
 
-#news {
-	background: yellow;
-	
+#news {	
 	width: 400px;
 	height: 100%;
 	
@@ -78,6 +72,6 @@ p {
 	line-height: 1.375em;
 }
 
-span.newsheader {
-	font: Bold 1em 'Helvetica', 'Arial', sans-serif;
+.newsheader {
+	font: 1em 'Helvetica', 'Arial', sans-serif;
 }
