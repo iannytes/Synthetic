@@ -43,6 +43,7 @@ article {
 	height: 100%;
 	
 	padding: 1em;
+	font: 1em 'Helvetica', 'Arial', sans-serif;
 }
 
 #sidebar {
@@ -50,6 +51,8 @@ article {
 	
 	width: 200px;
 	height: 100%;
+	
+	padding: 1em;
 	
 	font: 1.5em 'Helvetic', 'Arial', sans-serif;
 	line-height: 2em;
@@ -70,8 +73,4 @@ h3 {
 p {
 	font: 0.875em 'Helvetica', 'Arial', sans-serif;
 	line-height: 1.375em;
-}
-
-.newsheader {
-	font: 1em 'Helvetica', 'Arial', sans-serif;
 }
