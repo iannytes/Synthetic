@@ -53,15 +53,22 @@ article {
 }
 
 #masthead {
-	float: right;
+	position: absolute;
+	right: 0px; /* float right */
 	
 	width: auto;
 	height: 100%;
 }
 
 #masthead p {
-	font: Bold 5em 'Helvetica', 'Arial', sans-serif;
-	margin: 0em;
+	font: Bold 8em 'Helvetica', 'Arial', sans-serif;
+	margin: 0;
+	margin-top: -.1em;
+}
+
+.outline {
+//	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -.05em -.05em black;
 }
 
 #sidebar {
